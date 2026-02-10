@@ -39,7 +39,7 @@ def _(mo):
 @app.cell
 def _(pd):
     # Load data - adjust path as needed
-    DATA_PATH = "Questionnaire-Self AssessmentAntworten.xlsx"
+    DATA_PATH = "https://github.com/freiraum-bq/KVG_Ulf_Selfassessment/blob/main/Questionnaire-Self%20AssessmentAntworten.xlsx"
 
     df = pd.read_excel(DATA_PATH)
 
