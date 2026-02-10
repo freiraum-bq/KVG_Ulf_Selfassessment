@@ -1,0 +1,268 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.19.9"
+  },
+  "cells": [
+    {
+      "id": "MJUe",
+      "code_hash": "07707b41d971ef0ee85d00477f8a0633",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"self-assessment-questionnaire-explorer\">\ud83d\udcca Self-Assessment Questionnaire Explorer</h1>\n<span class=\"paragraph\">Explore the self-assessment responses from your team project.\nStudents answered this questionnaire for <strong>each group</strong> they participated in.</span>\n<span class=\"paragraph\">Use the tabs below to explore different aspects of the data.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hbol",
+      "code_hash": "72f5cf2015d6acfb751daa54f41eb3c3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "d83af703820c75b043cbf711d9df5c9d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "94a6add49b033008d3cebbef36fa3ca3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"overview\">\ud83d\udcc8 Overview</h2>\n<table>\n<thead>\n<tr>\n<th>Metric</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Total Responses</td>\n<td><strong>23</strong></td>\n</tr>\n<tr>\n<td>Unique Students</td>\n<td><strong>10</strong></td>\n</tr>\n<tr>\n<td>Teams Covered</td>\n<td><strong>8</strong></td>\n</tr>\n<tr>\n<td>Avg Responses per Student</td>\n<td><strong>2.3</strong></td>\n</tr>\n</tbody>\n</table></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "966c173246226a32effb1ec25b2d192d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='lEQa-0' random-id='03c3a47a-5b58-eae4-75ac-6f169a32465e'><marimo-tabs data-initial-value='&quot;&quot;' data-label='null' data-tabs='[&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udc64 By Student&lt;/span&gt;&lt;/span&gt;&quot;,&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udc65 By Team&lt;/span&gt;&lt;/span&gt;&quot;,&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udcca Distributions&lt;/span&gt;&lt;/span&gt;&quot;]'><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">student</span></span></div><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">team</span></span></div><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">distribution</span></span></div></marimo-tabs></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "dbb5de22f05942fcfb3a3862ea3f282d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='PKri-0' random-id='9b81a56e-89b4-b8cb-7d0e-64224b1e15cc'><marimo-dropdown data-initial-value='[&quot;Abdul Muqeet Abdul Azeez Sultanpuri&quot;]' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Select a student&lt;/span&gt;&lt;/span&gt;&quot;' data-options='[&quot;Abdul Muqeet Abdul Azeez Sultanpuri&quot;,&quot;Abu Bakar Siddique&quot;,&quot;Ayesha Jabeen&quot;,&quot;Farmand Bazdiditehrani&quot;,&quot;Ghaith Al-Dailami&quot;,&quot;Hassan Riaz Butt&quot;,&quot;Luca Gemballa&quot;,&quot;Timur Salakhetdinov&quot;,&quot;Wanja Tolksdorf&quot;,&quot;nina&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false'></marimo-dropdown></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "516e110310cbebb4e2c48e289a597214",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"abdul-muqeet-abdul-azeez-sultanpuri\">\ud83d\udc64 Abdul Muqeet Abdul Azeez Sultanpuri</h2>\n<span class=\"paragraph\"><strong>Teams participated in (1):</strong>\nData Crawling &amp; Matrix Creation</span>\n<h3 id=\"self-assessment-scores-1best-4lowest\">Self-Assessment Scores (1=Best, 4=Lowest)</h3>\n<table>\n<thead>\n<tr>\n<th>Category</th>\n<th>Score</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Contribution</td>\n<td><strong>2.00</strong></td>\n</tr>\n<tr>\n<td>Group Dynamics</td>\n<td><strong>1.00</strong></td>\n</tr>\n<tr>\n<td>Reflection</td>\n<td><strong>2.00</strong></td>\n</tr>\n<tr>\n<td><strong>Overall</strong></td>\n<td><strong>1.70</strong></td>\n</tr>\n</tbody>\n</table></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "a1de61c9e873a657c1183ac3898c95df",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='SFPL-0' random-id='b00871b8-a28d-ac06-680a-894259ef0716'><marimo-dropdown data-initial-value='[&quot;All groups&quot;]' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;View responses for&lt;/span&gt;&lt;/span&gt;&quot;' data-options='[&quot;All groups&quot;,&quot;Data Crawling &amp; Matrix Creation&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false'></marimo-dropdown></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "cffab1575b9fa4f332e71a4847c7bfcb",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><hr /></span><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"data-crawling-matrix-creation\">Data Crawling &amp; Matrix Creation</h3>\n<span class=\"paragraph\"><strong>Period:</strong> 2025-11-04 \u2192 2025-12-12</span>\n<span class=\"paragraph\"><strong>STAR Method Response:</strong></span>\n<blockquote>\n<span class=\"paragraph\">S - Generating the distance matrix and the student matrix.\nT - Generate a distance matrix, verify the distance using the actual co-ordinates, identify the incorrect/correct entries, identify the actual bus-stops.\nA - Installed docker and tried running Valhalla algorithm to generate the distance matrix, used google maps and co-ordinates converter to verify the actual bus-stops and the distances.\nR - Graphhopper algorithm showed better accuracy, successfully identified incorrect entries for the bus-stops and distances from the matrix. </span>\n</blockquote>\n<span class=\"paragraph\"><strong>Skills Learned:</strong></span>\n<blockquote>\n<span class=\"paragraph\">No algorithm can solely provide a solution to such hard problems, it's always a trade-off and we as a data and computer expert have to decide which limitations can be overlooked while finding a solution. Matrix creation is also as important as running some solution over them, results are only as good as the data matrix. I got a hands-on on how the real world problems related to data science must be approached. </span>\n</blockquote>\n<span class=\"paragraph\"><strong>How Were Tasks Divided?:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Tasks were divided, but deadlines were inconsistent or unclear., Tasks and deadlines were planned but needed frequent adjustment.</span>\n</blockquote>\n<span class=\"paragraph\"><strong>What to Continue:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Peer support and collaboration.</span>\n</blockquote>\n<span class=\"paragraph\"><strong>What to Stop:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Nothing, current approach was effective.</span>\n</blockquote>\n<span class=\"paragraph\"><strong>What to Start:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Documenting decisions and progress.</span>\n</blockquote></span></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "1cea723cf0cc8122f837c6aae5296c5f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "8295284f9d6803d95180752ee00368f0",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "ancestor-stopped",
+          "evalue": "This cell wasn't run because an ancestor was stopped with `mo.stop`: ",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "9a76fb6356d7f8465a3a7fcbedcd7b50",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "ancestor-stopped",
+          "evalue": "This cell wasn't run because an ancestor was stopped with `mo.stop`: ",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "697d6d4b175b3a520824b9a80da19661",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "ancestor-stopped",
+          "evalue": "This cell wasn't run because an ancestor was stopped with `mo.stop`: ",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "fcecd03258ba538a862cfec3a2898409",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "b204a50019e07b8cce2a44b6c388f758",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "ancestor-stopped",
+          "evalue": "This cell wasn't run because an ancestor was stopped with `mo.stop`: ",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "f68f2c3df7ef626c9d89c20a905eeb8b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "85e8e262e3cf43e9908d09486470c6f6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "baf866e40083c93fa00d56cc6a002f6d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TqIu",
+      "code_hash": "60c320b6b77b26295df7ccedbbd359bb",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Vxnm",
+      "code_hash": null,
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
