@@ -32,33 +32,26 @@
     },
     {
       "id": "vblA",
-      "code_hash": "45fb9213867f0c009c8c73bcde8b0fc3",
+      "code_hash": "96bb2cbfc5b254bf0d75383e199cedaa",
       "outputs": [
         {
-          "type": "error",
-          "ename": "exception",
-          "evalue": "Excel file format cannot be determined, you must specify an engine manually.",
-          "traceback": []
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
         }
       ],
-      "console": [
-        {
-          "type": "stream",
-          "name": "stderr",
-          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;/var/folders/1m/1s6j8bls0xl937x93221rfqh0000gn/T/marimo_24724/__marimo__cell_vblA_.py&quot;</span>, line <span class=\"m\">4</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"n\">df</span> <span class=\"o\">=</span> <span class=\"n\">pd</span><span class=\"o\">.</span><span class=\"n\">read_excel</span><span class=\"p\">(</span><span class=\"n\">DATA_PATH</span><span class=\"p\">)</span>\n  File <span class=\"nb\">&quot;/Users/ja_nnik/.cache/uv/archive-v0/69dtQpCGVUEkK9E56BT1g/lib/python3.13/site-packages/pandas/io/excel/_base.py&quot;</span>, line <span class=\"m\">481</span>, in <span class=\"n\">read_excel</span>\n<span class=\"w\">    </span><span class=\"n\">io</span> <span class=\"o\">=</span> <span class=\"n\">ExcelFile</span><span class=\"p\">(</span>\n<span class=\"w\">    </span>    <span class=\"n\">io</span><span class=\"p\">,</span>\n<span class=\"w\">    </span><span class=\"o\">...&lt;</span><span class=\"mi\">2</span> <span class=\"n\">lines</span><span class=\"o\">&gt;...</span>\n<span class=\"w\">    </span>    <span class=\"n\">engine_kwargs</span><span class=\"o\">=</span><span class=\"n\">engine_kwargs</span><span class=\"p\">,</span>\n<span class=\"w\">    </span><span class=\"p\">)</span>\n  File <span class=\"nb\">&quot;/Users/ja_nnik/.cache/uv/archive-v0/69dtQpCGVUEkK9E56BT1g/lib/python3.13/site-packages/pandas/io/excel/_base.py&quot;</span>, line <span class=\"m\">1608</span>, in <span class=\"n\">__init__</span>\n<span class=\"w\">    </span><span class=\"k\">raise</span> <span class=\"ne\">ValueError</span><span class=\"p\">(</span>\n<span class=\"w\">    </span><span class=\"o\">...&lt;</span><span class=\"mi\">2</span> <span class=\"n\">lines</span><span class=\"o\">&gt;...</span>\n<span class=\"w\">    </span><span class=\"p\">)</span>\n<span class=\"gr\">ValueError</span>: <span class=\"n\">Excel file format cannot be determined, you must specify an engine manually.</span>\n</pre></div>\n</span>",
-          "mimetype": "application/vnd.marimo+traceback"
-        }
-      ]
+      "console": []
     },
     {
       "id": "bkHC",
       "code_hash": "94a6add49b033008d3cebbef36fa3ca3",
       "outputs": [
         {
-          "type": "error",
-          "ename": "exception",
-          "evalue": "An ancestor raised an exception (ValueError): ",
-          "traceback": []
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"overview\">\ud83d\udcc8 Overview</h2>\n<table>\n<thead>\n<tr>\n<th>Metric</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Total Responses</td>\n<td><strong>23</strong></td>\n</tr>\n<tr>\n<td>Unique Students</td>\n<td><strong>10</strong></td>\n</tr>\n<tr>\n<td>Teams Covered</td>\n<td><strong>8</strong></td>\n</tr>\n<tr>\n<td>Avg Responses per Student</td>\n<td><strong>2.3</strong></td>\n</tr>\n</tbody>\n</table></span>"
+          }
         }
       ],
       "console": []
@@ -70,7 +63,7 @@
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='lEQa-0' random-id='91b9afb3-8fbc-24ad-d4d0-60a199c7e054'><marimo-tabs data-initial-value='&quot;&quot;' data-label='null' data-tabs='[&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udc64 By Student&lt;/span&gt;&lt;/span&gt;&quot;,&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udc65 By Team&lt;/span&gt;&lt;/span&gt;&quot;,&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udcca Distributions&lt;/span&gt;&lt;/span&gt;&quot;]'><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">student</span></span></div><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">team</span></span></div><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">distribution</span></span></div></marimo-tabs></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='lEQa-0' random-id='08b001f4-0b0b-9071-3263-a89300e0f333'><marimo-tabs data-initial-value='&quot;&quot;' data-label='null' data-tabs='[&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udc64 By Student&lt;/span&gt;&lt;/span&gt;&quot;,&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udc65 By Team&lt;/span&gt;&lt;/span&gt;&quot;,&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udcca Distributions&lt;/span&gt;&lt;/span&gt;&quot;]'><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">student</span></span></div><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">team</span></span></div><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">distribution</span></span></div></marimo-tabs></marimo-ui-element>"
           }
         }
       ],
@@ -81,10 +74,10 @@
       "code_hash": "dbb5de22f05942fcfb3a3862ea3f282d",
       "outputs": [
         {
-          "type": "error",
-          "ename": "exception",
-          "evalue": "An ancestor raised an exception (ValueError): ",
-          "traceback": []
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='PKri-0' random-id='6fdc295c-876c-954a-1978-5986e3cd34f1'><marimo-dropdown data-initial-value='[&quot;Abdul Muqeet Abdul Azeez Sultanpuri&quot;]' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Select a student&lt;/span&gt;&lt;/span&gt;&quot;' data-options='[&quot;Abdul Muqeet Abdul Azeez Sultanpuri&quot;,&quot;Abu Bakar Siddique&quot;,&quot;Ayesha Jabeen&quot;,&quot;Farmand Bazdiditehrani&quot;,&quot;Ghaith Al-Dailami&quot;,&quot;Hassan Riaz Butt&quot;,&quot;Luca Gemballa&quot;,&quot;Timur Salakhetdinov&quot;,&quot;Wanja Tolksdorf&quot;,&quot;nina&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false'></marimo-dropdown></marimo-ui-element>"
+          }
         }
       ],
       "console": []
@@ -94,10 +87,10 @@
       "code_hash": "516e110310cbebb4e2c48e289a597214",
       "outputs": [
         {
-          "type": "error",
-          "ename": "exception",
-          "evalue": "An ancestor raised an exception (ValueError): ",
-          "traceback": []
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"abdul-muqeet-abdul-azeez-sultanpuri\">\ud83d\udc64 Abdul Muqeet Abdul Azeez Sultanpuri</h2>\n<span class=\"paragraph\"><strong>Teams participated in (1):</strong>\nData Crawling &amp; Matrix Creation</span>\n<h3 id=\"self-assessment-scores-1best-4lowest\">Self-Assessment Scores (1=Best, 4=Lowest)</h3>\n<table>\n<thead>\n<tr>\n<th>Category</th>\n<th>Score</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Contribution</td>\n<td><strong>2.00</strong></td>\n</tr>\n<tr>\n<td>Group Dynamics</td>\n<td><strong>1.00</strong></td>\n</tr>\n<tr>\n<td>Reflection</td>\n<td><strong>2.00</strong></td>\n</tr>\n<tr>\n<td><strong>Overall</strong></td>\n<td><strong>1.70</strong></td>\n</tr>\n</tbody>\n</table></span>"
+          }
         }
       ],
       "console": []
@@ -107,10 +100,10 @@
       "code_hash": "a1de61c9e873a657c1183ac3898c95df",
       "outputs": [
         {
-          "type": "error",
-          "ename": "exception",
-          "evalue": "An ancestor raised an exception (ValueError): ",
-          "traceback": []
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='SFPL-0' random-id='4a85683e-aec4-d1f1-a93e-3291992e7cb6'><marimo-dropdown data-initial-value='[&quot;All groups&quot;]' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;View responses for&lt;/span&gt;&lt;/span&gt;&quot;' data-options='[&quot;All groups&quot;,&quot;Data Crawling &amp; Matrix Creation&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false'></marimo-dropdown></marimo-ui-element>"
+          }
         }
       ],
       "console": []
@@ -120,10 +113,10 @@
       "code_hash": "cffab1575b9fa4f332e71a4847c7bfcb",
       "outputs": [
         {
-          "type": "error",
-          "ename": "exception",
-          "evalue": "An ancestor raised an exception (ValueError): ",
-          "traceback": []
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><hr /></span><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"data-crawling-matrix-creation\">Data Crawling &amp; Matrix Creation</h3>\n<span class=\"paragraph\"><strong>Period:</strong> 2025-11-04 \u2192 2025-12-12</span>\n<span class=\"paragraph\"><strong>STAR Method Response:</strong></span>\n<blockquote>\n<span class=\"paragraph\">S - Generating the distance matrix and the student matrix.\nT - Generate a distance matrix, verify the distance using the actual co-ordinates, identify the incorrect/correct entries, identify the actual bus-stops.\nA - Installed docker and tried running Valhalla algorithm to generate the distance matrix, used google maps and co-ordinates converter to verify the actual bus-stops and the distances.\nR - Graphhopper algorithm showed better accuracy, successfully identified incorrect entries for the bus-stops and distances from the matrix. </span>\n</blockquote>\n<span class=\"paragraph\"><strong>Skills Learned:</strong></span>\n<blockquote>\n<span class=\"paragraph\">No algorithm can solely provide a solution to such hard problems, it's always a trade-off and we as a data and computer expert have to decide which limitations can be overlooked while finding a solution. Matrix creation is also as important as running some solution over them, results are only as good as the data matrix. I got a hands-on on how the real world problems related to data science must be approached. </span>\n</blockquote>\n<span class=\"paragraph\"><strong>How Were Tasks Divided?:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Tasks were divided, but deadlines were inconsistent or unclear., Tasks and deadlines were planned but needed frequent adjustment.</span>\n</blockquote>\n<span class=\"paragraph\"><strong>What to Continue:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Peer support and collaboration.</span>\n</blockquote>\n<span class=\"paragraph\"><strong>What to Stop:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Nothing, current approach was effective.</span>\n</blockquote>\n<span class=\"paragraph\"><strong>What to Start:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Documenting decisions and progress.</span>\n</blockquote></span></div>"
+          }
         }
       ],
       "console": []
@@ -133,10 +126,10 @@
       "code_hash": "1cea723cf0cc8122f837c6aae5296c5f",
       "outputs": [
         {
-          "type": "error",
-          "ename": "exception",
-          "evalue": "An ancestor raised an exception (ValueError): ",
-          "traceback": []
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
         }
       ],
       "console": []
@@ -147,8 +140,8 @@
       "outputs": [
         {
           "type": "error",
-          "ename": "exception",
-          "evalue": "An ancestor raised an exception (ValueError): ",
+          "ename": "ancestor-stopped",
+          "evalue": "This cell wasn't run because an ancestor was stopped with `mo.stop`: ",
           "traceback": []
         }
       ],
@@ -160,8 +153,8 @@
       "outputs": [
         {
           "type": "error",
-          "ename": "exception",
-          "evalue": "An ancestor raised an exception (ValueError): ",
+          "ename": "ancestor-stopped",
+          "evalue": "This cell wasn't run because an ancestor was stopped with `mo.stop`: ",
           "traceback": []
         }
       ],
@@ -173,8 +166,8 @@
       "outputs": [
         {
           "type": "error",
-          "ename": "exception",
-          "evalue": "An ancestor raised an exception (ValueError): ",
+          "ename": "ancestor-stopped",
+          "evalue": "This cell wasn't run because an ancestor was stopped with `mo.stop`: ",
           "traceback": []
         }
       ],
@@ -199,8 +192,8 @@
       "outputs": [
         {
           "type": "error",
-          "ename": "exception",
-          "evalue": "An ancestor raised an exception (ValueError): ",
+          "ename": "ancestor-stopped",
+          "evalue": "This cell wasn't run because an ancestor was stopped with `mo.stop`: ",
           "traceback": []
         }
       ],
@@ -224,10 +217,10 @@
       "code_hash": "85e8e262e3cf43e9908d09486470c6f6",
       "outputs": [
         {
-          "type": "error",
-          "ename": "exception",
-          "evalue": "An ancestor raised an exception (ValueError): ",
-          "traceback": []
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
         }
       ],
       "console": []
@@ -237,10 +230,10 @@
       "code_hash": "baf866e40083c93fa00d56cc6a002f6d",
       "outputs": [
         {
-          "type": "error",
-          "ename": "exception",
-          "evalue": "An ancestor raised an exception (ValueError): ",
-          "traceback": []
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
         }
       ],
       "console": []
@@ -250,10 +243,10 @@
       "code_hash": "60c320b6b77b26295df7ccedbbd359bb",
       "outputs": [
         {
-          "type": "error",
-          "ename": "exception",
-          "evalue": "An ancestor raised an exception (ValueError): ",
-          "traceback": []
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
         }
       ],
       "console": []

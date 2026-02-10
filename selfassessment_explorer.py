@@ -39,9 +39,9 @@ def _(mo):
 @app.cell
 def _(pd):
     # Load data - adjust path as needed
-    DATA_PATH = "https://github.com/freiraum-bq/KVG_Ulf_Selfassessment/blob/main/Questionnaire-Self%20AssessmentAntworten.xlsx"
+    DATA_URL = "https://github.com/freiraum-bq/KVG_Ulf_Selfassessment/raw/main/answers.xlsx"
 
-    df = pd.read_excel(DATA_PATH)
+    df = pd.read_excel(DATA_URL)
 
     # Clean column names for easier access
     df.columns = [
