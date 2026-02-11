@@ -5,19 +5,6 @@
   },
   "cells": [
     {
-      "id": "MJUe",
-      "code_hash": "07707b41d971ef0ee85d00477f8a0633",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"self-assessment-questionnaire-explorer\">\ud83d\udcca Self-Assessment Questionnaire Explorer</h1>\n<span class=\"paragraph\">Explore the self-assessment responses from your team project.\nStudents answered this questionnaire for <strong>each group</strong> they participated in.</span>\n<span class=\"paragraph\">Use the tabs below to explore different aspects of the data.</span></span>"
-          }
-        }
-      ],
-      "console": []
-    },
-    {
       "id": "Hbol",
       "code_hash": "72f5cf2015d6acfb751daa54f41eb3c3",
       "outputs": [
@@ -25,6 +12,19 @@
           "type": "data",
           "data": {
             "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "07707b41d971ef0ee85d00477f8a0633",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"self-assessment-questionnaire-explorer\">\ud83d\udcca Self-Assessment Questionnaire Explorer</h1>\n<span class=\"paragraph\">Explore the self-assessment responses from your team project.\nStudents answered this questionnaire for <strong>each group</strong> they participated in.</span>\n<span class=\"paragraph\">Use the tabs below to explore different aspects of the data.</span></span>"
           }
         }
       ],
@@ -63,7 +63,7 @@
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='lEQa-0' random-id='08b001f4-0b0b-9071-3263-a89300e0f333'><marimo-tabs data-initial-value='&quot;&quot;' data-label='null' data-tabs='[&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udc64 By Student&lt;/span&gt;&lt;/span&gt;&quot;,&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udc65 By Team&lt;/span&gt;&lt;/span&gt;&quot;,&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udcca Distributions&lt;/span&gt;&lt;/span&gt;&quot;]'><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">student</span></span></div><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">team</span></span></div><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">distribution</span></span></div></marimo-tabs></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='lEQa-0' random-id='829db50e-5cec-4217-d38b-49cc69786240'><marimo-tabs data-initial-value='&quot;&quot;' data-label='null' data-tabs='[&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udc64 By Student&lt;/span&gt;&lt;/span&gt;&quot;,&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udc65 By Team&lt;/span&gt;&lt;/span&gt;&quot;,&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udcca Distributions&lt;/span&gt;&lt;/span&gt;&quot;]'><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">student</span></span></div><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">team</span></span></div><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">distribution</span></span></div></marimo-tabs></marimo-ui-element>"
           }
         }
       ],
@@ -76,7 +76,7 @@
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='PKri-0' random-id='6fdc295c-876c-954a-1978-5986e3cd34f1'><marimo-dropdown data-initial-value='[&quot;Abdul Muqeet Abdul Azeez Sultanpuri&quot;]' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Select a student&lt;/span&gt;&lt;/span&gt;&quot;' data-options='[&quot;Abdul Muqeet Abdul Azeez Sultanpuri&quot;,&quot;Abu Bakar Siddique&quot;,&quot;Ayesha Jabeen&quot;,&quot;Farmand Bazdiditehrani&quot;,&quot;Ghaith Al-Dailami&quot;,&quot;Hassan Riaz Butt&quot;,&quot;Luca Gemballa&quot;,&quot;Timur Salakhetdinov&quot;,&quot;Wanja Tolksdorf&quot;,&quot;nina&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false'></marimo-dropdown></marimo-ui-element>"
+            "text/plain": ""
           }
         }
       ],
@@ -87,10 +87,10 @@
       "code_hash": "516e110310cbebb4e2c48e289a597214",
       "outputs": [
         {
-          "type": "data",
-          "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"abdul-muqeet-abdul-azeez-sultanpuri\">\ud83d\udc64 Abdul Muqeet Abdul Azeez Sultanpuri</h2>\n<span class=\"paragraph\"><strong>Teams participated in (1):</strong>\nData Crawling &amp; Matrix Creation</span>\n<h3 id=\"self-assessment-scores-1best-4lowest\">Self-Assessment Scores (1=Best, 4=Lowest)</h3>\n<table>\n<thead>\n<tr>\n<th>Category</th>\n<th>Score</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Contribution</td>\n<td><strong>2.00</strong></td>\n</tr>\n<tr>\n<td>Group Dynamics</td>\n<td><strong>1.00</strong></td>\n</tr>\n<tr>\n<td>Reflection</td>\n<td><strong>2.00</strong></td>\n</tr>\n<tr>\n<td><strong>Overall</strong></td>\n<td><strong>1.70</strong></td>\n</tr>\n</tbody>\n</table></span>"
-          }
+          "type": "error",
+          "ename": "ancestor-stopped",
+          "evalue": "This cell wasn't run because an ancestor was stopped with `mo.stop`: ",
+          "traceback": []
         }
       ],
       "console": []
@@ -100,10 +100,10 @@
       "code_hash": "a1de61c9e873a657c1183ac3898c95df",
       "outputs": [
         {
-          "type": "data",
-          "data": {
-            "text/html": "<marimo-ui-element object-id='SFPL-0' random-id='4a85683e-aec4-d1f1-a93e-3291992e7cb6'><marimo-dropdown data-initial-value='[&quot;All groups&quot;]' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;View responses for&lt;/span&gt;&lt;/span&gt;&quot;' data-options='[&quot;All groups&quot;,&quot;Data Crawling &amp; Matrix Creation&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false'></marimo-dropdown></marimo-ui-element>"
-          }
+          "type": "error",
+          "ename": "ancestor-stopped",
+          "evalue": "This cell wasn't run because an ancestor was stopped with `mo.stop`: ",
+          "traceback": []
         }
       ],
       "console": []
@@ -113,10 +113,10 @@
       "code_hash": "cffab1575b9fa4f332e71a4847c7bfcb",
       "outputs": [
         {
-          "type": "data",
-          "data": {
-            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><hr /></span><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"data-crawling-matrix-creation\">Data Crawling &amp; Matrix Creation</h3>\n<span class=\"paragraph\"><strong>Period:</strong> 2025-11-04 \u2192 2025-12-12</span>\n<span class=\"paragraph\"><strong>STAR Method Response:</strong></span>\n<blockquote>\n<span class=\"paragraph\">S - Generating the distance matrix and the student matrix.\nT - Generate a distance matrix, verify the distance using the actual co-ordinates, identify the incorrect/correct entries, identify the actual bus-stops.\nA - Installed docker and tried running Valhalla algorithm to generate the distance matrix, used google maps and co-ordinates converter to verify the actual bus-stops and the distances.\nR - Graphhopper algorithm showed better accuracy, successfully identified incorrect entries for the bus-stops and distances from the matrix. </span>\n</blockquote>\n<span class=\"paragraph\"><strong>Skills Learned:</strong></span>\n<blockquote>\n<span class=\"paragraph\">No algorithm can solely provide a solution to such hard problems, it's always a trade-off and we as a data and computer expert have to decide which limitations can be overlooked while finding a solution. Matrix creation is also as important as running some solution over them, results are only as good as the data matrix. I got a hands-on on how the real world problems related to data science must be approached. </span>\n</blockquote>\n<span class=\"paragraph\"><strong>How Were Tasks Divided?:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Tasks were divided, but deadlines were inconsistent or unclear., Tasks and deadlines were planned but needed frequent adjustment.</span>\n</blockquote>\n<span class=\"paragraph\"><strong>What to Continue:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Peer support and collaboration.</span>\n</blockquote>\n<span class=\"paragraph\"><strong>What to Stop:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Nothing, current approach was effective.</span>\n</blockquote>\n<span class=\"paragraph\"><strong>What to Start:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Documenting decisions and progress.</span>\n</blockquote></span></div>"
-          }
+          "type": "error",
+          "ename": "ancestor-stopped",
+          "evalue": "This cell wasn't run because an ancestor was stopped with `mo.stop`: ",
+          "traceback": []
         }
       ],
       "console": []
@@ -206,7 +206,7 @@
         {
           "type": "data",
           "data": {
-            "text/plain": ""
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"distributions\">\ud83d\udcca Distributions</h2></span>"
           }
         }
       ],
@@ -219,15 +219,42 @@
         {
           "type": "data",
           "data": {
-            "text/plain": ""
+            "text/html": "<marimo-ui-element object-id='ROlb-0' random-id='59bc5e8e-99d4-80f8-6f2f-dc0479a83aae'><marimo-vega data-initial-value='{}' data-label='null' data-spec='{&quot;config&quot;:{&quot;view&quot;:{&quot;continuousWidth&quot;:300,&quot;continuousHeight&quot;:300}},&quot;data&quot;:{&quot;url&quot;:&quot;./@file/220-12875515-v1GIvPXg.csv&quot;,&quot;format&quot;:{&quot;type&quot;:&quot;csv&quot;}},&quot;mark&quot;:{&quot;type&quot;:&quot;bar&quot;},&quot;encoding&quot;:{&quot;color&quot;:{&quot;field&quot;:&quot;responses&quot;,&quot;scale&quot;:{&quot;scheme&quot;:&quot;blues&quot;},&quot;type&quot;:&quot;quantitative&quot;},&quot;x&quot;:{&quot;field&quot;:&quot;student&quot;,&quot;sort&quot;:&quot;-y&quot;,&quot;title&quot;:&quot;Student&quot;,&quot;type&quot;:&quot;nominal&quot;},&quot;y&quot;:{&quot;field&quot;:&quot;responses&quot;,&quot;title&quot;:&quot;Number of Groups&quot;,&quot;type&quot;:&quot;quantitative&quot;}},&quot;height&quot;:300,&quot;title&quot;:&quot;How Many Groups Did Each Student Participate In?&quot;,&quot;width&quot;:500,&quot;&#36;schema&quot;:&quot;https://vega.github.io/schema/vega-lite/v6.1.0.json&quot;}' data-chart-selection='true' data-field-selection='true' data-embed-options='{}'></marimo-vega></marimo-ui-element>"
           }
         }
       ],
-      "console": []
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "\u001b[33m[W 260211 10:09:53 altair_transformer:79]\u001b(B\u001b[m Failed to convert data to arrow format, falling back to CSV: `Import pyarrow` failed.  Use pip or conda to install the pyarrow package.\n",
+          "mimetype": "text/plain"
+        }
+      ]
     },
     {
       "id": "qnkX",
       "code_hash": "baf866e40083c93fa00d56cc6a002f6d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='qnkX-0' random-id='db25977b-c23f-0cd1-8171-0d941a23e680'><marimo-vega data-initial-value='{}' data-label='null' data-spec='{&quot;config&quot;:{&quot;view&quot;:{&quot;continuousWidth&quot;:300,&quot;continuousHeight&quot;:300}},&quot;data&quot;:{&quot;url&quot;:&quot;./@file/184-12875515-lwr5sVsU.csv&quot;,&quot;format&quot;:{&quot;type&quot;:&quot;csv&quot;}},&quot;mark&quot;:{&quot;type&quot;:&quot;bar&quot;},&quot;encoding&quot;:{&quot;color&quot;:{&quot;field&quot;:&quot;members&quot;,&quot;scale&quot;:{&quot;scheme&quot;:&quot;greens&quot;},&quot;type&quot;:&quot;quantitative&quot;},&quot;x&quot;:{&quot;field&quot;:&quot;team&quot;,&quot;sort&quot;:&quot;-y&quot;,&quot;title&quot;:&quot;Team&quot;,&quot;type&quot;:&quot;nominal&quot;},&quot;y&quot;:{&quot;field&quot;:&quot;members&quot;,&quot;title&quot;:&quot;Number of Members&quot;,&quot;type&quot;:&quot;quantitative&quot;}},&quot;height&quot;:300,&quot;title&quot;:&quot;Team Sizes (Unique Members)&quot;,&quot;width&quot;:500,&quot;&#36;schema&quot;:&quot;https://vega.github.io/schema/vega-lite/v6.1.0.json&quot;}' data-chart-selection='true' data-field-selection='true' data-embed-options='{}'></marimo-vega></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "\u001b[33m[W 260211 10:09:53 altair_transformer:79]\u001b(B\u001b[m Failed to convert data to arrow format, falling back to CSV: `Import pyarrow` failed.  Use pip or conda to install the pyarrow package.\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "TlCe",
+      "code_hash": "68b9570d1cc61651f3c23af1eca74fd2",
       "outputs": [
         {
           "type": "data",
@@ -240,29 +267,23 @@
     },
     {
       "id": "TqIu",
-      "code_hash": "60c320b6b77b26295df7ccedbbd359bb",
+      "code_hash": "86dab7f264bd5400e4808c79d678f024",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/plain": ""
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><marimo-ui-element object-id='TlCe-0' random-id='d7bfc740-0777-8fe5-9744-f9bd5169d0d7'><marimo-switch data-initial-value='false' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Show Final Score&lt;/span&gt;&lt;/span&gt;&quot;' data-disabled='false'></marimo-switch></marimo-ui-element><marimo-ui-element object-id='TlCe-1' random-id='157ad974-1192-d308-2fd8-0e5c92384fb9'><marimo-switch data-initial-value='true' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Show average per student&lt;/span&gt;&lt;/span&gt;&quot;' data-disabled='false'></marimo-switch></marimo-ui-element></div><marimo-ui-element object-id='TqIu-0' random-id='3846a607-a7b0-ddb8-4849-cd0d6cc0b8e2'><marimo-vega data-initial-value='{}' data-label='null' data-spec='{&quot;config&quot;:{&quot;view&quot;:{&quot;continuousWidth&quot;:300,&quot;continuousHeight&quot;:300}},&quot;data&quot;:{&quot;url&quot;:&quot;./@file/427-12875515-L7ml6CPQ.csv&quot;,&quot;format&quot;:{&quot;type&quot;:&quot;csv&quot;}},&quot;mark&quot;:{&quot;type&quot;:&quot;bar&quot;},&quot;encoding&quot;:{&quot;x&quot;:{&quot;bin&quot;:{&quot;step&quot;:0.25},&quot;field&quot;:&quot;final_score&quot;,&quot;title&quot;:&quot;Final Score (1=Best, 4=Lowest)&quot;,&quot;type&quot;:&quot;quantitative&quot;},&quot;y&quot;:{&quot;aggregate&quot;:&quot;count&quot;,&quot;title&quot;:&quot;Count&quot;,&quot;type&quot;:&quot;quantitative&quot;}},&quot;height&quot;:200,&quot;title&quot;:&quot;Distribution of Final Scores (per student)&quot;,&quot;width&quot;:300,&quot;&#36;schema&quot;:&quot;https://vega.github.io/schema/vega-lite/v6.1.0.json&quot;}' data-chart-selection='true' data-field-selection='true' data-embed-options='{}'></marimo-vega></marimo-ui-element></div>"
           }
         }
       ],
-      "console": []
-    },
-    {
-      "id": "Vxnm",
-      "code_hash": null,
-      "outputs": [
+      "console": [
         {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
+          "type": "stream",
+          "name": "stderr",
+          "text": "\u001b[33m[W 260211 10:14:37 altair_transformer:79]\u001b(B\u001b[m Failed to convert data to arrow format, falling back to CSV: `Import pyarrow` failed.  Use pip or conda to install the pyarrow package.\n",
+          "mimetype": "text/plain"
         }
-      ],
-      "console": []
+      ]
     }
   ]
 }

@@ -450,34 +450,77 @@ def _(alt, df, mo, tabs):
 
 
 @app.cell
-def _(alt, df, mo, tabs):
-    mo.stop(tabs.value != "📊 Distributions")
-
-    # Score distributions
-    score_data = df[['name', 'team', 'contribution_score', 'dynamics_score', 'reflection_score']].melt(
-        id_vars=['name', 'team'],
-        var_name='category',
-        value_name='score'
-    )
-    score_data['category'] = score_data['category'].str.replace('_score', '').str.title()
-
-    chart3 = alt.Chart(score_data).mark_bar().encode(
-        x=alt.X('score:O', title='Score (1=Best, 4=Lowest)'),
-        y=alt.Y('count()', title='Count'),
-        color=alt.Color('category:N', title='Category'),
-        column=alt.Column('category:N', title=None)
-    ).properties(
-        title = "Total Distribution of Self-Assessment Scores",
-        width=150,
-        height=200
-    )
-
-    mo.ui.altair_chart(chart3)
-    return
+def _(mo):
+    score_toggle = mo.ui.switch(label="Show Final Score", value=False)
+    avg_toggle = mo.ui.switch(label="Show average per student", value=True)
+    return avg_toggle, score_toggle
 
 
 @app.cell
-def _():
+def _(alt, avg_toggle, df, mo, score_toggle, tabs):
+    mo.stop(tabs.value != "📊 Distributions")
+
+    if avg_toggle.value:
+        # Aggregate per student: average sub-scores across teams
+        student_avg = df.groupby('name').agg(
+            contribution_score=('contribution_score', 'mean'),
+            dynamics_score=('dynamics_score', 'mean'),
+            reflection_score=('reflection_score', 'mean')
+        ).reset_index()
+    else:
+        student_avg = df.copy()
+
+    if score_toggle.value:
+        # Final score distribution
+        student_avg['final_score'] = (
+            0.5 * student_avg['contribution_score'] +
+            0.3 * student_avg['dynamics_score'] +
+            0.2 * student_avg['reflection_score']
+        ).round(2)
+
+        chart = alt.Chart(student_avg).mark_bar().encode(
+            x=alt.X('final_score:Q', bin=alt.Bin(step=0.25), title='Final Score (1=Best, 4=Lowest)'),
+            y=alt.Y('count()', title='Count'),
+        ).properties(
+            title="Distribution of Final Scores" + (" (per student)" if avg_toggle.value else " (all entries)"),
+            width=300,
+            height=200
+        )
+    else:
+        # Sub-score distributions
+        id_vars = ['name'] if avg_toggle.value else ['name', 'team']
+        score_data = student_avg[id_vars + ['contribution_score', 'dynamics_score', 'reflection_score']].melt(
+            id_vars=id_vars,
+            var_name='category',
+            value_name='score'
+        )
+        score_data['category'] = score_data['category'].str.replace('_score', '').str.title()
+
+        if avg_toggle.value:
+            chart = alt.Chart(score_data).mark_bar().encode(
+                x=alt.X('score:Q', bin=alt.Bin(step=0.25), title='Score (1=Best, 4=Lowest)'),
+                y=alt.Y('count()', title='Count'),
+                color=alt.Color('category:N', title='Category'),
+                column=alt.Column('category:N', title=None)
+            ).properties(
+                title="Distribution of Self-Assessment Scores (per student)",
+                width=150,
+                height=200
+            )
+        else:
+            chart = alt.Chart(score_data).mark_bar().encode(
+                x=alt.X('score:O', title='Score (1=Best, 4=Lowest)'),
+                y=alt.Y('count()', title='Count'),
+                color=alt.Color('category:N', title='Category'),
+                column=alt.Column('category:N', title=None)
+            ).properties(
+                title="Distribution of Self-Assessment Scores (all entries)",
+                width=150,
+                height=200
+            )
+
+    mo.vstack([mo.hstack([score_toggle, avg_toggle]), mo.ui.altair_chart(chart)])
+
     return
 
 
