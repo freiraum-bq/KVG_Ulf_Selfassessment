@@ -6,7 +6,7 @@
   "cells": [
     {
       "id": "Hbol",
-      "code_hash": "72f5cf2015d6acfb751daa54f41eb3c3",
+      "code_hash": "0ebc5acf17894f8284783d59c6042350",
       "outputs": [
         {
           "type": "data",
@@ -32,7 +32,7 @@
     },
     {
       "id": "vblA",
-      "code_hash": "96bb2cbfc5b254bf0d75383e199cedaa",
+      "code_hash": "a1e2ae217e2502210cf73439c614b938",
       "outputs": [
         {
           "type": "data",
@@ -45,33 +45,7 @@
     },
     {
       "id": "bkHC",
-      "code_hash": "94a6add49b033008d3cebbef36fa3ca3",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"overview\">\ud83d\udcc8 Overview</h2>\n<table>\n<thead>\n<tr>\n<th>Metric</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Total Responses</td>\n<td><strong>23</strong></td>\n</tr>\n<tr>\n<td>Unique Students</td>\n<td><strong>10</strong></td>\n</tr>\n<tr>\n<td>Teams Covered</td>\n<td><strong>8</strong></td>\n</tr>\n<tr>\n<td>Avg Responses per Student</td>\n<td><strong>2.3</strong></td>\n</tr>\n</tbody>\n</table></span>"
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "lEQa",
-      "code_hash": "966c173246226a32effb1ec25b2d192d",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/html": "<marimo-ui-element object-id='lEQa-0' random-id='829db50e-5cec-4217-d38b-49cc69786240'><marimo-tabs data-initial-value='&quot;&quot;' data-label='null' data-tabs='[&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udc64 By Student&lt;/span&gt;&lt;/span&gt;&quot;,&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udc65 By Team&lt;/span&gt;&lt;/span&gt;&quot;,&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udcca Distributions&lt;/span&gt;&lt;/span&gt;&quot;]'><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">student</span></span></div><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">team</span></span></div><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">distribution</span></span></div></marimo-tabs></marimo-ui-element>"
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "PKri",
-      "code_hash": "dbb5de22f05942fcfb3a3862ea3f282d",
+      "code_hash": "e234f869fe21bb367079c5f03c8d3f32",
       "outputs": [
         {
           "type": "data",
@@ -83,21 +57,47 @@
       "console": []
     },
     {
-      "id": "Xref",
-      "code_hash": "516e110310cbebb4e2c48e289a597214",
+      "id": "lEQa",
+      "code_hash": "94a6add49b033008d3cebbef36fa3ca3",
       "outputs": [
         {
-          "type": "error",
-          "ename": "ancestor-stopped",
-          "evalue": "This cell wasn't run because an ancestor was stopped with `mo.stop`: ",
-          "traceback": []
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"overview\">\ud83d\udcc8 Overview</h2>\n<table>\n<thead>\n<tr>\n<th>Metric</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Total Responses</td>\n<td><strong>22</strong></td>\n</tr>\n<tr>\n<td>Unique Students</td>\n<td><strong>10</strong></td>\n</tr>\n<tr>\n<td>Teams Covered</td>\n<td><strong>8</strong></td>\n</tr>\n<tr>\n<td>Avg Responses per Student</td>\n<td><strong>2.2</strong></td>\n</tr>\n</tbody>\n</table></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "966c173246226a32effb1ec25b2d192d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='PKri-0' random-id='6de4b17c-b909-c2da-9b70-0c7fd7e3eb98'><marimo-tabs data-initial-value='&quot;&quot;' data-label='null' data-tabs='[&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udc64 By Student&lt;/span&gt;&lt;/span&gt;&quot;,&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udc65 By Team&lt;/span&gt;&lt;/span&gt;&quot;,&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udcca Distributions&lt;/span&gt;&lt;/span&gt;&quot;]'><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">student</span></span></div><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">team</span></span></div><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">distribution</span></span></div></marimo-tabs></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "52eb0bac25576b8232d637ce8802b945",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
         }
       ],
       "console": []
     },
     {
       "id": "SFPL",
-      "code_hash": "a1de61c9e873a657c1183ac3898c95df",
+      "code_hash": "da8053a3ea9a74c0a3e6d54e3ce1e4b2",
       "outputs": [
         {
           "type": "error",
@@ -110,6 +110,32 @@
     },
     {
       "id": "BYtC",
+      "code_hash": "7dd160064d0dcae602c03eeec341a4d2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"see-the-answers-of-that-student-for-each-group-they-participated-in\">See the answers of that student for each group they participated in.</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "a1de61c9e873a657c1183ac3898c95df",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "ancestor-stopped",
+          "evalue": "This cell wasn't run because an ancestor was stopped with `mo.stop`: ",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
       "code_hash": "cffab1575b9fa4f332e71a4847c7bfcb",
       "outputs": [
         {
@@ -122,7 +148,7 @@
       "console": []
     },
     {
-      "id": "RGSE",
+      "id": "emfo",
       "code_hash": "1cea723cf0cc8122f837c6aae5296c5f",
       "outputs": [
         {
@@ -135,7 +161,7 @@
       "console": []
     },
     {
-      "id": "Kclp",
+      "id": "Hstk",
       "code_hash": "8295284f9d6803d95180752ee00368f0",
       "outputs": [
         {
@@ -148,7 +174,7 @@
       "console": []
     },
     {
-      "id": "emfo",
+      "id": "nWHF",
       "code_hash": "9a76fb6356d7f8465a3a7fcbedcd7b50",
       "outputs": [
         {
@@ -161,34 +187,8 @@
       "console": []
     },
     {
-      "id": "Hstk",
-      "code_hash": "697d6d4b175b3a520824b9a80da19661",
-      "outputs": [
-        {
-          "type": "error",
-          "ename": "ancestor-stopped",
-          "evalue": "This cell wasn't run because an ancestor was stopped with `mo.stop`: ",
-          "traceback": []
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "nWHF",
-      "code_hash": "fcecd03258ba538a862cfec3a2898409",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
-      "console": []
-    },
-    {
       "id": "iLit",
-      "code_hash": "b204a50019e07b8cce2a44b6c388f758",
+      "code_hash": "78d649cc40dbc93d9109e3f89e692cc0",
       "outputs": [
         {
           "type": "error",
@@ -201,6 +201,32 @@
     },
     {
       "id": "ZHCJ",
+      "code_hash": "fcecd03258ba538a862cfec3a2898409",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "b204a50019e07b8cce2a44b6c388f758",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "ancestor-stopped",
+          "evalue": "This cell wasn't run because an ancestor was stopped with `mo.stop`: ",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qnkX",
       "code_hash": "f68f2c3df7ef626c9d89c20a905eeb8b",
       "outputs": [
         {
@@ -213,13 +239,33 @@
       "console": []
     },
     {
-      "id": "ROlb",
+      "id": "TqIu",
+      "code_hash": "667bf2559e48b7c25e468ef870554fc9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><marimo-ui-element object-id='ZBYS-0' random-id='752e8496-5d3a-92b5-272b-487e68bc806a'><marimo-dropdown data-initial-value='[&quot;Average per group&quot;]' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Filter by group&lt;/span&gt;&lt;/span&gt;&quot;' data-options='[&quot;Average per group&quot;,&quot;Constraints&quot;,&quot;Data Crawling &amp; Matrix Creation&quot;,&quot;Data Documentation&quot;,&quot;Evaluation &amp; Baseline&quot;,&quot;Management&quot;,&quot;Presentation&quot;,&quot;Research Literature &amp; Algorithm&quot;,&quot;Visualization&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false'></marimo-dropdown></marimo-ui-element><marimo-ui-element object-id='TqIu-0' random-id='372456e2-84a4-b0b7-0172-2626a4efb2d6'><marimo-vega data-initial-value='{}' data-label='null' data-spec='{&quot;config&quot;:{&quot;view&quot;:{&quot;continuousWidth&quot;:300,&quot;continuousHeight&quot;:300}},&quot;data&quot;:{&quot;url&quot;:&quot;./@file/56-13033056-pyf6CuN5.csv&quot;,&quot;format&quot;:{&quot;type&quot;:&quot;csv&quot;}},&quot;mark&quot;:{&quot;type&quot;:&quot;bar&quot;},&quot;encoding&quot;:{&quot;color&quot;:{&quot;field&quot;:&quot;active_days&quot;,&quot;legend&quot;:null,&quot;scale&quot;:{&quot;scheme&quot;:&quot;oranges&quot;},&quot;type&quot;:&quot;quantitative&quot;},&quot;tooltip&quot;:[{&quot;field&quot;:&quot;student&quot;,&quot;title&quot;:&quot;Student&quot;,&quot;type&quot;:&quot;nominal&quot;},{&quot;field&quot;:&quot;active_days&quot;,&quot;title&quot;:&quot;Active Days&quot;,&quot;type&quot;:&quot;quantitative&quot;}],&quot;x&quot;:{&quot;field&quot;:&quot;student&quot;,&quot;sort&quot;:&quot;-y&quot;,&quot;title&quot;:&quot;Student&quot;,&quot;type&quot;:&quot;nominal&quot;},&quot;y&quot;:{&quot;field&quot;:&quot;active_days&quot;,&quot;title&quot;:&quot;Active Days&quot;,&quot;type&quot;:&quot;quantitative&quot;}},&quot;height&quot;:300,&quot;title&quot;:&quot;Active Days \u2014 Data Documentation&quot;,&quot;width&quot;:500,&quot;&#36;schema&quot;:&quot;https://vega.github.io/schema/vega-lite/v6.1.0.json&quot;}' data-chart-selection='true' data-field-selection='true' data-embed-options='{}'></marimo-vega></marimo-ui-element></div>"
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "\u001b[33m[W 260211 14:49:02 altair_transformer:79]\u001b(B\u001b[m Failed to convert data to arrow format, falling back to CSV: `Import pyarrow` failed.  Use pip or conda to install the pyarrow package.\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "DnEU",
       "code_hash": "85e8e262e3cf43e9908d09486470c6f6",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='ROlb-0' random-id='59bc5e8e-99d4-80f8-6f2f-dc0479a83aae'><marimo-vega data-initial-value='{}' data-label='null' data-spec='{&quot;config&quot;:{&quot;view&quot;:{&quot;continuousWidth&quot;:300,&quot;continuousHeight&quot;:300}},&quot;data&quot;:{&quot;url&quot;:&quot;./@file/220-12875515-v1GIvPXg.csv&quot;,&quot;format&quot;:{&quot;type&quot;:&quot;csv&quot;}},&quot;mark&quot;:{&quot;type&quot;:&quot;bar&quot;},&quot;encoding&quot;:{&quot;color&quot;:{&quot;field&quot;:&quot;responses&quot;,&quot;scale&quot;:{&quot;scheme&quot;:&quot;blues&quot;},&quot;type&quot;:&quot;quantitative&quot;},&quot;x&quot;:{&quot;field&quot;:&quot;student&quot;,&quot;sort&quot;:&quot;-y&quot;,&quot;title&quot;:&quot;Student&quot;,&quot;type&quot;:&quot;nominal&quot;},&quot;y&quot;:{&quot;field&quot;:&quot;responses&quot;,&quot;title&quot;:&quot;Number of Groups&quot;,&quot;type&quot;:&quot;quantitative&quot;}},&quot;height&quot;:300,&quot;title&quot;:&quot;How Many Groups Did Each Student Participate In?&quot;,&quot;width&quot;:500,&quot;&#36;schema&quot;:&quot;https://vega.github.io/schema/vega-lite/v6.1.0.json&quot;}' data-chart-selection='true' data-field-selection='true' data-embed-options='{}'></marimo-vega></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='DnEU-0' random-id='9cc01eb3-32d3-09cd-6511-bfdfd34ccab3'><marimo-vega data-initial-value='{}' data-label='null' data-spec='{&quot;config&quot;:{&quot;view&quot;:{&quot;continuousWidth&quot;:300,&quot;continuousHeight&quot;:300}},&quot;data&quot;:{&quot;url&quot;:&quot;./@file/213-13033056-3IQa6Tej.csv&quot;,&quot;format&quot;:{&quot;type&quot;:&quot;csv&quot;}},&quot;mark&quot;:{&quot;type&quot;:&quot;bar&quot;},&quot;encoding&quot;:{&quot;color&quot;:{&quot;field&quot;:&quot;responses&quot;,&quot;scale&quot;:{&quot;scheme&quot;:&quot;blues&quot;},&quot;type&quot;:&quot;quantitative&quot;},&quot;x&quot;:{&quot;field&quot;:&quot;student&quot;,&quot;sort&quot;:&quot;-y&quot;,&quot;title&quot;:&quot;Student&quot;,&quot;type&quot;:&quot;nominal&quot;},&quot;y&quot;:{&quot;field&quot;:&quot;responses&quot;,&quot;title&quot;:&quot;Number of Groups&quot;,&quot;type&quot;:&quot;quantitative&quot;}},&quot;height&quot;:300,&quot;title&quot;:&quot;How Many Groups Did Each Student Participate In?&quot;,&quot;width&quot;:500,&quot;&#36;schema&quot;:&quot;https://vega.github.io/schema/vega-lite/v6.1.0.json&quot;}' data-chart-selection='true' data-field-selection='true' data-embed-options='{}'></marimo-vega></marimo-ui-element>"
           }
         }
       ],
@@ -227,19 +273,19 @@
         {
           "type": "stream",
           "name": "stderr",
-          "text": "\u001b[33m[W 260211 10:09:53 altair_transformer:79]\u001b(B\u001b[m Failed to convert data to arrow format, falling back to CSV: `Import pyarrow` failed.  Use pip or conda to install the pyarrow package.\n",
+          "text": "\u001b[33m[W 260211 14:48:15 altair_transformer:79]\u001b(B\u001b[m Failed to convert data to arrow format, falling back to CSV: `Import pyarrow` failed.  Use pip or conda to install the pyarrow package.\n",
           "mimetype": "text/plain"
         }
       ]
     },
     {
-      "id": "qnkX",
+      "id": "ulZA",
       "code_hash": "baf866e40083c93fa00d56cc6a002f6d",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='qnkX-0' random-id='db25977b-c23f-0cd1-8171-0d941a23e680'><marimo-vega data-initial-value='{}' data-label='null' data-spec='{&quot;config&quot;:{&quot;view&quot;:{&quot;continuousWidth&quot;:300,&quot;continuousHeight&quot;:300}},&quot;data&quot;:{&quot;url&quot;:&quot;./@file/184-12875515-lwr5sVsU.csv&quot;,&quot;format&quot;:{&quot;type&quot;:&quot;csv&quot;}},&quot;mark&quot;:{&quot;type&quot;:&quot;bar&quot;},&quot;encoding&quot;:{&quot;color&quot;:{&quot;field&quot;:&quot;members&quot;,&quot;scale&quot;:{&quot;scheme&quot;:&quot;greens&quot;},&quot;type&quot;:&quot;quantitative&quot;},&quot;x&quot;:{&quot;field&quot;:&quot;team&quot;,&quot;sort&quot;:&quot;-y&quot;,&quot;title&quot;:&quot;Team&quot;,&quot;type&quot;:&quot;nominal&quot;},&quot;y&quot;:{&quot;field&quot;:&quot;members&quot;,&quot;title&quot;:&quot;Number of Members&quot;,&quot;type&quot;:&quot;quantitative&quot;}},&quot;height&quot;:300,&quot;title&quot;:&quot;Team Sizes (Unique Members)&quot;,&quot;width&quot;:500,&quot;&#36;schema&quot;:&quot;https://vega.github.io/schema/vega-lite/v6.1.0.json&quot;}' data-chart-selection='true' data-field-selection='true' data-embed-options='{}'></marimo-vega></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='ulZA-0' random-id='c26b8719-bb5d-e399-f061-a402f3bc3e0c'><marimo-vega data-initial-value='{}' data-label='null' data-spec='{&quot;config&quot;:{&quot;view&quot;:{&quot;continuousWidth&quot;:300,&quot;continuousHeight&quot;:300}},&quot;data&quot;:{&quot;url&quot;:&quot;./@file/184-13033056-vQrBsPpH.csv&quot;,&quot;format&quot;:{&quot;type&quot;:&quot;csv&quot;}},&quot;mark&quot;:{&quot;type&quot;:&quot;bar&quot;},&quot;encoding&quot;:{&quot;color&quot;:{&quot;field&quot;:&quot;members&quot;,&quot;scale&quot;:{&quot;scheme&quot;:&quot;greens&quot;},&quot;type&quot;:&quot;quantitative&quot;},&quot;x&quot;:{&quot;field&quot;:&quot;team&quot;,&quot;sort&quot;:&quot;-y&quot;,&quot;title&quot;:&quot;Team&quot;,&quot;type&quot;:&quot;nominal&quot;},&quot;y&quot;:{&quot;field&quot;:&quot;members&quot;,&quot;title&quot;:&quot;Number of Members&quot;,&quot;type&quot;:&quot;quantitative&quot;}},&quot;height&quot;:300,&quot;title&quot;:&quot;Team Sizes (Unique Members)&quot;,&quot;width&quot;:500,&quot;&#36;schema&quot;:&quot;https://vega.github.io/schema/vega-lite/v6.1.0.json&quot;}' data-chart-selection='true' data-field-selection='true' data-embed-options='{}'></marimo-vega></marimo-ui-element>"
           }
         }
       ],
@@ -247,13 +293,13 @@
         {
           "type": "stream",
           "name": "stderr",
-          "text": "\u001b[33m[W 260211 10:09:53 altair_transformer:79]\u001b(B\u001b[m Failed to convert data to arrow format, falling back to CSV: `Import pyarrow` failed.  Use pip or conda to install the pyarrow package.\n",
+          "text": "\u001b[33m[W 260211 14:48:15 altair_transformer:79]\u001b(B\u001b[m Failed to convert data to arrow format, falling back to CSV: `Import pyarrow` failed.  Use pip or conda to install the pyarrow package.\n",
           "mimetype": "text/plain"
         }
       ]
     },
     {
-      "id": "TlCe",
+      "id": "ecfG",
       "code_hash": "68b9570d1cc61651f3c23af1eca74fd2",
       "outputs": [
         {
@@ -266,24 +312,43 @@
       "console": []
     },
     {
-      "id": "TqIu",
-      "code_hash": "86dab7f264bd5400e4808c79d678f024",
+      "id": "Pvdt",
+      "code_hash": null,
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><marimo-ui-element object-id='TlCe-0' random-id='d7bfc740-0777-8fe5-9744-f9bd5169d0d7'><marimo-switch data-initial-value='false' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Show Final Score&lt;/span&gt;&lt;/span&gt;&quot;' data-disabled='false'></marimo-switch></marimo-ui-element><marimo-ui-element object-id='TlCe-1' random-id='157ad974-1192-d308-2fd8-0e5c92384fb9'><marimo-switch data-initial-value='true' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Show average per student&lt;/span&gt;&lt;/span&gt;&quot;' data-disabled='false'></marimo-switch></marimo-ui-element></div><marimo-ui-element object-id='TqIu-0' random-id='3846a607-a7b0-ddb8-4849-cd0d6cc0b8e2'><marimo-vega data-initial-value='{}' data-label='null' data-spec='{&quot;config&quot;:{&quot;view&quot;:{&quot;continuousWidth&quot;:300,&quot;continuousHeight&quot;:300}},&quot;data&quot;:{&quot;url&quot;:&quot;./@file/427-12875515-L7ml6CPQ.csv&quot;,&quot;format&quot;:{&quot;type&quot;:&quot;csv&quot;}},&quot;mark&quot;:{&quot;type&quot;:&quot;bar&quot;},&quot;encoding&quot;:{&quot;x&quot;:{&quot;bin&quot;:{&quot;step&quot;:0.25},&quot;field&quot;:&quot;final_score&quot;,&quot;title&quot;:&quot;Final Score (1=Best, 4=Lowest)&quot;,&quot;type&quot;:&quot;quantitative&quot;},&quot;y&quot;:{&quot;aggregate&quot;:&quot;count&quot;,&quot;title&quot;:&quot;Count&quot;,&quot;type&quot;:&quot;quantitative&quot;}},&quot;height&quot;:200,&quot;title&quot;:&quot;Distribution of Final Scores (per student)&quot;,&quot;width&quot;:300,&quot;&#36;schema&quot;:&quot;https://vega.github.io/schema/vega-lite/v6.1.0.json&quot;}' data-chart-selection='true' data-field-selection='true' data-embed-options='{}'></marimo-vega></marimo-ui-element></div>"
+            "text/plain": ""
           }
         }
       ],
-      "console": [
+      "console": []
+    },
+    {
+      "id": "ZBYS",
+      "code_hash": "9e584bcdc1fdf1a11a2b4f0f1867f0a3",
+      "outputs": [
         {
-          "type": "stream",
-          "name": "stderr",
-          "text": "\u001b[33m[W 260211 10:14:37 altair_transformer:79]\u001b(B\u001b[m Failed to convert data to arrow format, falling back to CSV: `Import pyarrow` failed.  Use pip or conda to install the pyarrow package.\n",
-          "mimetype": "text/plain"
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
         }
-      ]
+      ],
+      "console": []
+    },
+    {
+      "id": "aLJB",
+      "code_hash": null,
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
     }
   ]
 }
