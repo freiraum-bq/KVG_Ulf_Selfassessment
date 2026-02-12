@@ -32,7 +32,7 @@
     },
     {
       "id": "vblA",
-      "code_hash": "01bd4c63183e84446ab1f636a3e30380",
+      "code_hash": "5e010ce5c7b5e8ee51bab44d3535a291",
       "outputs": [
         {
           "type": "data",
@@ -63,14 +63,14 @@
         {
           "type": "data",
           "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"overview\">\ud83d\udcc8 Overview</h2>\n<table>\n<thead>\n<tr>\n<th>Metric</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Total Responses</td>\n<td><strong>46</strong></td>\n</tr>\n<tr>\n<td>Unique Students</td>\n<td><strong>21</strong></td>\n</tr>\n<tr>\n<td>Teams Covered</td>\n<td><strong>9</strong></td>\n</tr>\n<tr>\n<td>Avg Responses per Student</td>\n<td><strong>2.2</strong></td>\n</tr>\n</tbody>\n</table></span>"
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"overview\">\ud83d\udcc8 Overview</h2>\n<table>\n<thead>\n<tr>\n<th>Metric</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Total Responses</td>\n<td><strong>51</strong></td>\n</tr>\n<tr>\n<td>Unique Students</td>\n<td><strong>22</strong></td>\n</tr>\n<tr>\n<td>Teams Covered</td>\n<td><strong>9</strong></td>\n</tr>\n<tr>\n<td>Avg Responses per Student</td>\n<td><strong>2.3</strong></td>\n</tr>\n</tbody>\n</table></span>"
           }
         }
       ],
       "console": []
     },
     {
-      "id": "CdGx",
+      "id": "PKri",
       "code_hash": "d227aa7668bc909453a057ac6e7da8f2",
       "outputs": [
         {
@@ -83,26 +83,13 @@
       "console": []
     },
     {
-      "id": "PKri",
+      "id": "Xref",
       "code_hash": "966c173246226a32effb1ec25b2d192d",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='PKri-0' random-id='37d51c98-c7a2-0beb-fbdd-5a6adb8fb8cc'><marimo-tabs data-initial-value='&quot;&quot;' data-label='null' data-tabs='[&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udc64 By Student&lt;/span&gt;&lt;/span&gt;&quot;,&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udc65 By Team&lt;/span&gt;&lt;/span&gt;&quot;,&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udcca Distributions&lt;/span&gt;&lt;/span&gt;&quot;]'><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">student</span></span></div><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">team</span></span></div><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">distribution</span></span></div></marimo-tabs></marimo-ui-element>"
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "Xref",
-      "code_hash": "52eb0bac25576b8232d637ce8802b945",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
+            "text/html": "<marimo-ui-element object-id='Xref-0' random-id='dfa1d7a0-6424-4a1d-0136-9543482153cd'><marimo-tabs data-initial-value='&quot;&quot;' data-label='null' data-tabs='[&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udc64 By Student&lt;/span&gt;&lt;/span&gt;&quot;,&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udc65 By Team&lt;/span&gt;&lt;/span&gt;&quot;,&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udcca Distributions&lt;/span&gt;&lt;/span&gt;&quot;]'><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">student</span></span></div><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">team</span></span></div><div data-kind='tab'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">distribution</span></span></div></marimo-tabs></marimo-ui-element>"
           }
         }
       ],
@@ -110,19 +97,32 @@
     },
     {
       "id": "SFPL",
-      "code_hash": "da8053a3ea9a74c0a3e6d54e3ce1e4b2",
+      "code_hash": "52eb0bac25576b8232d637ce8802b945",
       "outputs": [
         {
-          "type": "error",
-          "ename": "ancestor-stopped",
-          "evalue": "This cell wasn't run because an ancestor was stopped with `mo.stop`: ",
-          "traceback": []
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='SFPL-0' random-id='6f1c23c7-23a7-d17c-466e-8a626108d8cb'><marimo-dropdown data-initial-value='[&quot;.  Aadithy&quot;]' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Select a student&lt;/span&gt;&lt;/span&gt;&quot;' data-options='[&quot;.  Aadithy&quot;,&quot;Abdul Muqeet Abdul Azeez Sultanpuri&quot;,&quot;Abu Bakar Siddique&quot;,&quot;Archana Yelkur&quot;,&quot;Avani Jayaraj&quot;,&quot;Ayesha Jabeen&quot;,&quot;Ellaine Salvador&quot;,&quot;Elvi Varghese&quot;,&quot;Farmand Bazdiditehrani&quot;,&quot;Ghaith Al-Dailami&quot;,&quot;Hassan Riaz Butt&quot;,&quot;Jannik Schneider&quot;,&quot;Luca Gemballa&quot;,&quot;Lucrezia Chiappo&quot;,&quot;Mayurbhai Jakharabhai Odedra&quot;,&quot;Mohamed Elsafty&quot;,&quot;Pei-I Wu&quot;,&quot;Siddhi Kiran Chavan&quot;,&quot;Tabish Momin&quot;,&quot;Timur Salakhetdinov&quot;,&quot;Wanja Tolksdorf&quot;,&quot;nina&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false'></marimo-dropdown></marimo-ui-element>"
+          }
         }
       ],
       "console": []
     },
     {
       "id": "BYtC",
+      "code_hash": "da8053a3ea9a74c0a3e6d54e3ce1e4b2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"ellaine-salvador\">\ud83d\udc64 Ellaine Salvador</h2>\n<span class=\"paragraph\"><strong>Teams participated in (3):</strong>\nData Documentation, Presentation, Evaluation &amp; Baseline</span>\n<h3 id=\"self-assessment-scores-1best-4lowest\">Self-Assessment Scores (1=Best, 4=Lowest)</h3>\n<table>\n<thead>\n<tr>\n<th>Category</th>\n<th>Data Documentation</th>\n<th>Presentation</th>\n<th>Evaluation &amp; Baseline</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Contribution (50%)</td>\n<td>1</td>\n<td>1</td>\n<td>2</td>\n</tr>\n<tr>\n<td>Group Dynamics (30%)</td>\n<td>1</td>\n<td>1</td>\n<td>2</td>\n</tr>\n<tr>\n<td>Reflection (20%)</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td><strong>Overall</strong></td>\n<td>1.20</td>\n<td>1.00</td>\n<td>1.80</td>\n</tr>\n<tr>\n<td>Period</td>\n<td>2025-10-28 \u2192 2026-02-04</td>\n<td>2026-01-16 \u2192 2026-02-04</td>\n<td>2025-12-02 \u2192 2026-01-30</td>\n</tr>\n<tr>\n<td><strong>Active Days</strong></td>\n<td>99</td>\n<td>19</td>\n<td>59</td>\n</tr>\n</tbody>\n</table></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
       "code_hash": "7dd160064d0dcae602c03eeec341a4d2",
       "outputs": [
         {
@@ -135,39 +135,26 @@
       "console": []
     },
     {
-      "id": "RGSE",
+      "id": "Kclp",
       "code_hash": "a1de61c9e873a657c1183ac3898c95df",
       "outputs": [
         {
-          "type": "error",
-          "ename": "ancestor-stopped",
-          "evalue": "This cell wasn't run because an ancestor was stopped with `mo.stop`: ",
-          "traceback": []
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "Kclp",
-      "code_hash": "cffab1575b9fa4f332e71a4847c7bfcb",
-      "outputs": [
-        {
-          "type": "error",
-          "ename": "ancestor-stopped",
-          "evalue": "This cell wasn't run because an ancestor was stopped with `mo.stop`: ",
-          "traceback": []
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='Kclp-0' random-id='f5fde672-7728-2807-8521-d88df412165f'><marimo-dropdown data-initial-value='[&quot;All groups&quot;]' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;View responses for&lt;/span&gt;&lt;/span&gt;&quot;' data-options='[&quot;All groups&quot;,&quot;Data Documentation&quot;,&quot;Presentation&quot;,&quot;Evaluation &amp; Baseline&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false'></marimo-dropdown></marimo-ui-element>"
+          }
         }
       ],
       "console": []
     },
     {
       "id": "emfo",
-      "code_hash": "1cea723cf0cc8122f837c6aae5296c5f",
+      "code_hash": "cffab1575b9fa4f332e71a4847c7bfcb",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='emfo-0' random-id='5e02c7a3-661d-6de4-0dbd-201c04522a1b'><marimo-dropdown data-initial-value='[&quot;Constraints&quot;]' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Select a team&lt;/span&gt;&lt;/span&gt;&quot;' data-options='[&quot;Constraints&quot;,&quot;Data Crawling &amp; Matrix Creation&quot;,&quot;Data Documentation&quot;,&quot;Evaluation &amp; Baseline&quot;,&quot;Management&quot;,&quot;Presentation&quot;,&quot;Questionnaire&quot;,&quot;Research Literature &amp; Algorithm&quot;,&quot;Visualization&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false'></marimo-dropdown></marimo-ui-element>"
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><hr /></span><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"data-documentation\">Data Documentation</h3>\n<span class=\"paragraph\"><strong>Period:</strong> 2025-10-28 \u2192 2026-02-04</span>\n<span class=\"paragraph\"><strong>STAR Method Response:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Situation: We were given a lot of different datasets and files that needed to be understood and organized before further analysis could take place.\nTask: Our goal was to interpret the data files, clarify what the different variables represented, delete unnecessary data and structure the information so it would be easier for the further teams to use the data.\nAction: I focused specifically on the school-related data. I examined the types of schools included, their locations, the regions they belonged to and details such as when does the school start. I reviewed the data from the excel files, pdfs and the internet to identify important data and fill in missing data. Then I documented my findings in an excel file so the rest of the group could easily understand and work with the new dataset.\nResult: As a result, our group developed a clearer understanding of the database. Reduced unnecessary data, filled in missing data and kept only the important variables structured into four main dataframes: pupils, bus stops, constraints and schools. </span>\n</blockquote>\n<span class=\"paragraph\"><strong>Skills Learned:</strong></span>\n<blockquote>\n<span class=\"paragraph\">On the technical side, I gained hands-on experience working with geospatial data, which was new to me. I learned how to interpret and visualize geographic information using tools such as OpenStreetMap. I also developed skills in gathering, cleaning and merging datasets (more so also for the baseline group). Combining data is not just about reading through files, but also combining data in a way that others understand the data.</span>\n</blockquote>\n<span class=\"paragraph\">On the soft skill side, I strengthened my documentation practices. I learned that documenting each step of the process is essential, not just for delivering a final product, but for ensuring transparency and error management. Good documentation makes it easier to track down issues and allows others ti understand and reproduce the work. I also became more aware that something that seems clear to me may not to be clear to others. This improved my communication skills and encouraged me to explain my work in a structured and clear way. Moreover, my participation in the data documentation team strengthened my understanding of the problem and the data.   </span>\n<span class=\"paragraph\"><strong>How Were Tasks Divided?:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Tasks and deadlines were clearly defined and well managed.</span>\n</blockquote>\n<span class=\"paragraph\"><strong>What to Continue:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Regular communication and meetings., Clear role assignment., Peer support and collaboration.</span>\n</blockquote>\n<span class=\"paragraph\"><strong>What to Stop:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Nothing, current approach was effective.</span>\n</blockquote>\n<span class=\"paragraph\"><strong>What to Start:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Documenting decisions and progress.</span>\n</blockquote></span><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"presentation\">Presentation</h3>\n<span class=\"paragraph\"><strong>Period:</strong> 2026-01-16 \u2192 2026-02-04</span>\n<span class=\"paragraph\"><strong>STAR Method Response:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Situation: I was part of the presentation group, and we were responsible for creating a clear and professional presentation for our project results. \nTask: Our goal was to develop the content and design of the presentation. in a way that our findings could be effectively communicated to the people from the Landkreis. \nAction: I contributed by developing content for the data documentation slides (creating one of the map graphics). Moreover, I was responsible for the styling and design of the presentation, including the layout, formatting and the consistency of the design. I also reviewed the slides for the spelling and clarity to ensure that we have a polished final result.\nResult: As a result, we delivered a well-structured and visually appealing presentation suited for our audience.</span>\n</blockquote>\n<span class=\"paragraph\"><strong>Skills Learned:</strong></span>\n<blockquote>\n<span class=\"paragraph\">I developed stronger presentation, visualization and design skills. I learned that creating good content is one thing, but making it visually appealing and easy to follow is another. In a presentation, not just your findings are important, but also your target audience. When creating slides, you have to keep the audience in mind to ensure they understand the content clearly and easily. Paying attention to details such as font type, font size, spelling, consistent structure and color choices may seem minor or unnecessary. However, in my opinion, it is precisely these details that make a presentation not just look good but professional and polished. Furthermore, I was able to contribute to a presentation even when I was not the one presenting. I learned how to build on someone else's ideas and refine them visually. Creating the slides was truly collaborative.</span>\n</blockquote>\n<span class=\"paragraph\"><strong>How Were Tasks Divided?:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Tasks and deadlines were clearly defined and well managed., Deadlines were discussed more or less already in the big group</span>\n</blockquote>\n<span class=\"paragraph\"><strong>What to Continue:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Clear role assignment., Peer support and collaboration.</span>\n</blockquote>\n<span class=\"paragraph\"><strong>What to Stop:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Nothing, current approach was effective., </span>\n</blockquote>\n<span class=\"paragraph\"><strong>What to Start:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Documenting decisions and progress.</span>\n</blockquote></span><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"evaluation-baseline\">Evaluation &amp; Baseline</h3>\n<span class=\"paragraph\"><strong>Period:</strong> 2025-12-02 \u2192 2026-01-30</span>\n<span class=\"paragraph\"><strong>STAR Method Response:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Situation: As part of the Baseline &amp; Evaluation Group, our challenge was to assess how the current bus network in our target regions was performing wit h respect to our defined constraints and to evaluate whether the proposed new bus networks would perform better. \nTask: Our goal was to establish a reliable baseline of the existing bus network and identify suitable data sources and tools to analyze and compare both the current and proposed networks.\nAction: I took responsibility for the initial baseline research. I researched how we could gather the necessary data and explored available tools, including Python packages, API access to KVG and HVV data and visited the KVG information center at L\u00fcneburg ZOB to collect available materials (here, I also got the info that KVG will change to Moin during our project timeline). I initially also collected and downloaded bus schedules in PDF format, but we quickly realized that manually extracting route information and transferring it into CSV or Excel was inefficient and prone to errors. As a result, I explored alternative data sources and discovered that the raw HVV data was publicly available through the Transparenzportal Hamburg. We decided to work with the raw dataset instead. While other team members were building an algorithm that matches the bus routes to pupils, I attempted to merge route information from the raw files with the data from the Landkreis files, but these contained inconsistent and sometimes contradictory information. After identifying these issues, we concluded that the other approach would be more efficient and reliable. Afterwards, I gathered all the information from our group meetings about possible evaluation criteria. \nResult: We identified a more suitable data source to establish a strong and (somewhat) accurate baseline for our analysis. Moreover, we found comparable criteria to evaluate the existing and proposed bus networks more effectively. </span>\n</blockquote>\n<span class=\"paragraph\"><strong>Skills Learned:</strong></span>\n<blockquote>\n<span class=\"paragraph\">I improved my ability to merge and compare different data sources. I learned that combining datasets is more complex than it initially appears. Differences in structure, formatting and spelling can easily lead to inconsistencies. I also realized how important data access is. For example, having direct API access to HVV data would likely have made the process more efficient. However, since we did not have API access, the expertise of the other team members helped to adapt and find alternative ways to work with the available data. On the soft skill side, I developed greater resilience and adaptability. It was sometimes frustrating to know that something in the data was incorrect but not immediately be able to pinpoint what the issue is. Additionally, working with constraints that we could not control thought me to be flexible and solution-oriented. Instead on focusing on what we lacked, other team members helped me understand to concentrate on making the best use of the resources available to us. They also were able to find a different solution. This teamwork also showed me how important clear communication and regular coordination is within the team. At times, it wasn't entirely clear which tasks had already been completed. I appreciate my team members' initiative and their ability to solve issues independently and I hope that I was able to support them. </span>\n</blockquote>\n<span class=\"paragraph\"><strong>How Were Tasks Divided?:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Tasks and deadlines were planned but needed frequent adjustment., </span>\n</blockquote>\n<span class=\"paragraph\"><strong>What to Continue:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Peer support and collaboration.</span>\n</blockquote>\n<span class=\"paragraph\"><strong>What to Stop:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Unequal workload distribution.</span>\n</blockquote>\n<span class=\"paragraph\"><strong>What to Start:</strong></span>\n<blockquote>\n<span class=\"paragraph\">Communicating more frequently.</span>\n</blockquote></span></div>"
           }
         }
       ],
@@ -175,12 +162,12 @@
     },
     {
       "id": "Hstk",
-      "code_hash": "8295284f9d6803d95180752ee00368f0",
+      "code_hash": "1cea723cf0cc8122f837c6aae5296c5f",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"team-data-crawling-matrix-creation\">\ud83d\udc65 Team: Data Crawling &amp; Matrix Creation</h2></span><marimo-ui-element object-id='Hstk-0' random-id='d45f9a36-9fc9-03de-8d88-1b723b6c7db9'><marimo-checkbox data-initial-value='false' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Show individual scores&lt;/span&gt;&lt;/span&gt;&quot;' data-disabled='false'></marimo-checkbox></marimo-ui-element></div>"
+            "text/plain": ""
           }
         }
       ],
@@ -188,51 +175,51 @@
     },
     {
       "id": "nWHF",
-      "code_hash": "9a76fb6356d7f8465a3a7fcbedcd7b50",
+      "code_hash": "8295284f9d6803d95180752ee00368f0",
       "outputs": [
         {
-          "type": "data",
-          "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Members (7):</strong> nina, Abdul Muqeet Abdul Azeez Sultanpuri, Ghaith Al-Dailami, Farmand Bazdiditehrani, Mohamed Elsafty, Avani Jayaraj, Siddhi Kiran Chavan</span>\n<h3 id=\"team-scores-1best-4lowest\">Team Scores (1=Best, 4=Lowest)</h3>\n<table>\n<thead>\n<tr>\n<th>Category</th>\n<th>nina</th>\n<th>Abdul Muqeet Abdul Azeez Sultanpuri</th>\n<th>Ghaith Al-Dailami</th>\n<th>Farmand Bazdiditehrani</th>\n<th>Mohamed Elsafty</th>\n<th>Avani Jayaraj</th>\n<th>Siddhi Kiran Chavan</th>\n<th>Average</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Contribution</td>\n<td>1</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td><strong>1.14</strong></td>\n</tr>\n<tr>\n<td>Group Dynamics</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td><strong>1.14</strong></td>\n</tr>\n<tr>\n<td>Reflection</td>\n<td>1</td>\n<td>2</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td><strong>1.29</strong></td>\n</tr>\n<tr>\n<td><strong>Overall</strong></td>\n<td>1.00</td>\n<td>1.70</td>\n<td>1.20</td>\n<td>1.30</td>\n<td>1.00</td>\n<td>1.00</td>\n<td>1.00</td>\n<td><strong>1.17</strong></td>\n</tr>\n</tbody>\n</table></span>"
-          }
+          "type": "error",
+          "ename": "ancestor-stopped",
+          "evalue": "This cell wasn't run because an ancestor was stopped with `mo.stop`: ",
+          "traceback": []
         }
       ],
       "console": []
     },
     {
       "id": "iLit",
-      "code_hash": "78d649cc40dbc93d9109e3f89e692cc0",
+      "code_hash": "9a76fb6356d7f8465a3a7fcbedcd7b50",
       "outputs": [
         {
-          "type": "data",
-          "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"time-span\">Time Span</h3>\n<span class=\"paragraph\"><strong>Team active period:</strong> 2025-10-21 \u2192 2026-01-13</span>\n<table>\n<thead>\n<tr>\n<th>Member</th>\n<th>Start</th>\n<th>End</th>\n<th>Active Days</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>nina</td>\n<td>2025-11-05</td>\n<td>2025-12-12</td>\n<td>37</td>\n</tr>\n<tr>\n<td>Abdul Muqeet Abdul Azeez Sultanpuri</td>\n<td>2025-11-04</td>\n<td>2025-12-12</td>\n<td>38</td>\n</tr>\n<tr>\n<td>Ghaith Al-Dailami</td>\n<td>2025-10-21</td>\n<td>2025-12-12</td>\n<td>52</td>\n</tr>\n<tr>\n<td>Farmand Bazdiditehrani</td>\n<td>2025-11-04</td>\n<td>2025-12-09</td>\n<td>35</td>\n</tr>\n<tr>\n<td>Mohamed Elsafty</td>\n<td>2025-11-04</td>\n<td>2025-12-02</td>\n<td>28</td>\n</tr>\n<tr>\n<td>Avani Jayaraj</td>\n<td>2025-11-04</td>\n<td>2025-12-13</td>\n<td>39</td>\n</tr>\n<tr>\n<td>Siddhi Kiran Chavan</td>\n<td>2025-11-04</td>\n<td>2026-01-13</td>\n<td>70</td>\n</tr>\n</tbody>\n</table></span>"
-          }
+          "type": "error",
+          "ename": "ancestor-stopped",
+          "evalue": "This cell wasn't run because an ancestor was stopped with `mo.stop`: ",
+          "traceback": []
         }
       ],
       "console": []
     },
     {
       "id": "ZHCJ",
-      "code_hash": "fcecd03258ba538a862cfec3a2898409",
+      "code_hash": "78d649cc40dbc93d9109e3f89e692cc0",
       "outputs": [
         {
-          "type": "data",
-          "data": {
-            "text/html": "<marimo-ui-element object-id='ZHCJ-0' random-id='3e282d20-c89d-00b4-2a7d-e126bf729178'><marimo-multiselect data-initial-value='[&quot;How did your group decide on deadlines and divide tasks?&quot;]' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Select questions to display&lt;/span&gt;&lt;/span&gt;&quot;' data-options='[&quot;How did your group decide on deadlines and divide tasks?&quot;,&quot;Overall, how would you describe the task-division process?&quot;,&quot;When disagreements occurred, how were they handled?&quot;,&quot;Did working as a group improve the final outcome?&quot;,&quot;What should be continued?&quot;,&quot;What should the group stop doing?&quot;,&quot;What should the group start doing?&quot;]' data-full-width='false'></marimo-multiselect></marimo-ui-element>"
-          }
+          "type": "error",
+          "ename": "ancestor-stopped",
+          "evalue": "This cell wasn't run because an ancestor was stopped with `mo.stop`: ",
+          "traceback": []
         }
       ],
       "console": []
     },
     {
       "id": "ROlb",
-      "code_hash": "b204a50019e07b8cce2a44b6c388f758",
+      "code_hash": "fcecd03258ba538a862cfec3a2898409",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>How did your group decide on deadlines and divide tasks?</strong></span>\n<table>\n<thead>\n<tr>\n<th>Member</th>\n<th>Answer</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>nina</td>\n<td>first one to do it in the begining, later we devided tasks clearly, asap</td>\n</tr>\n<tr>\n<td>Abdul Muqeet Abdul Azeez Sultanpuri</td>\n<td>Tasks were divided, but deadlines were inconsistent or unclear., Tasks and deadlines were planned but needed frequent adjustment.</td>\n</tr>\n<tr>\n<td>Ghaith Al-Dailami</td>\n<td>Tasks and deadlines were clearly defined and well managed.</td>\n</tr>\n<tr>\n<td>Farmand Bazdiditehrani</td>\n<td>Tasks and deadlines were clearly defined and well managed.</td>\n</tr>\n<tr>\n<td>Mohamed Elsafty</td>\n<td>Tasks and deadlines were clearly defined and well managed.</td>\n</tr>\n<tr>\n<td>Avani Jayaraj</td>\n<td>Tasks and deadlines were clearly defined and well managed.</td>\n</tr>\n<tr>\n<td>Siddhi Kiran Chavan</td>\n<td>Tasks and deadlines were clearly defined and well managed.</td>\n</tr>\n</tbody>\n</table></span></div>"
+            "text/plain": ""
           }
         }
       ],
@@ -240,6 +227,19 @@
     },
     {
       "id": "qnkX",
+      "code_hash": "b204a50019e07b8cce2a44b6c388f758",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "ancestor-stopped",
+          "evalue": "This cell wasn't run because an ancestor was stopped with `mo.stop`: ",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TqIu",
       "code_hash": "f68f2c3df7ef626c9d89c20a905eeb8b",
       "outputs": [
         {
@@ -252,7 +252,7 @@
       "console": []
     },
     {
-      "id": "TqIu",
+      "id": "Vxnm",
       "code_hash": "667bf2559e48b7c25e468ef870554fc9",
       "outputs": [
         {
@@ -272,7 +272,7 @@
       ]
     },
     {
-      "id": "Vxnm",
+      "id": "DnEU",
       "code_hash": "85e8e262e3cf43e9908d09486470c6f6",
       "outputs": [
         {
@@ -285,7 +285,7 @@
       "console": []
     },
     {
-      "id": "DnEU",
+      "id": "ulZA",
       "code_hash": "baf866e40083c93fa00d56cc6a002f6d",
       "outputs": [
         {
@@ -298,7 +298,7 @@
       "console": []
     },
     {
-      "id": "ulZA",
+      "id": "ecfG",
       "code_hash": "68b9570d1cc61651f3c23af1eca74fd2",
       "outputs": [
         {
@@ -311,7 +311,7 @@
       "console": []
     },
     {
-      "id": "ecfG",
+      "id": "Pvdt",
       "code_hash": null,
       "outputs": [
         {
@@ -324,7 +324,7 @@
       "console": []
     },
     {
-      "id": "Pvdt",
+      "id": "ZBYS",
       "code_hash": "9e584bcdc1fdf1a11a2b4f0f1867f0a3",
       "outputs": [
         {
@@ -337,7 +337,7 @@
       "console": []
     },
     {
-      "id": "ZBYS",
+      "id": "aLJB",
       "code_hash": null,
       "outputs": [
         {
