@@ -98,7 +98,7 @@ def _(df, mo):
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-    Use the tabs below to explore different aspects of the data.
+    Use the tabs below to explore different aspects.
     """)
     return
 
